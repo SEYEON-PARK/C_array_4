@@ -3,9 +3,9 @@
 int main(void)
 {
 	char name[50];
-	printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä. : ");
+	printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”. : ");
 	scanf_s("%s", name, sizeof(name));
-	printf("´ç½ÅÀÇ ÀÌ¸§Àº %sÀÔ´Ï´Ù.", name);
+	printf("ë‹¹ì‹ ì˜ ì´ë¦„ì€ %sì…ë‹ˆë‹¤.", name); //ì´ë¦„ ì¶œë ¥í•˜ê¸°.
 
 	return 0;
 }
